@@ -1,0 +1,4 @@
+source;share/bhv_path_following/local_setup.bash
+source;share/bhv_path_following/local_setup.dsv
+source;share/bhv_path_following/local_setup.sh
+source;share/bhv_path_following/local_setup.zsh

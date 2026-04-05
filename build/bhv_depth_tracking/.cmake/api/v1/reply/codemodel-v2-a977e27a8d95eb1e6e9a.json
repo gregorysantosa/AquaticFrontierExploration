@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aa1e6fa2c02d0e92f3c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bhv_depth_tracking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bhv_depth_tracking_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bhv_depth_tracking_uninstall-9ce5941fb7c09ae260ec.json",
+					"name" : "bhv_depth_tracking_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mvp_bhv_depth_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mvp_bhv_depth_tracking-0f3b75c01bf5c8f329fc.json",
+					"name" : "mvp_bhv_depth_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0e87143d5b58624b9084.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/bhv_depth_tracking",
+		"source" : "/home/arc/ws_sf_ros2/src/mvp_mission/bhv_depth_tracking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

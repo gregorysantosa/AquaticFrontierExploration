@@ -1,0 +1,3 @@
+[console_scripts]
+joy_thruster_map = joy_thruster_map.joy_thruster_map:main
+

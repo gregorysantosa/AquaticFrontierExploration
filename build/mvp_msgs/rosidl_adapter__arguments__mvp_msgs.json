@@ -1,0 +1,29 @@
+{
+  "package_name": "mvp_msgs",
+  "non_idl_tuples": [
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/ControlMode.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/ControlModes.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/ControlProcess.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/Float64Stamped.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/Float64StampedWithVariance.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/HelmState.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/HelmStates.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/NMEA.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/PidGains.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/Power.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/PwmSignal.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/SetpointBehavior.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/Waypoint.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:msg/Waypoints.msg",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/ChangeState.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/GetControlMode.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/GetControlModes.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/GetState.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/GetStates.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/GetWaypoints.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/LoadWaypoint.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/SendWaypoints.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/SetControlPoint.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_msgs:srv/SetString.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/bhv_altitude_tracking/local_setup.bash
+source;share/bhv_altitude_tracking/local_setup.dsv
+source;share/bhv_altitude_tracking/local_setup.sh
+source;share/bhv_altitude_tracking/local_setup.zsh

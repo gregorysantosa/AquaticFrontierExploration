@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mvp_msgs/srv/GetWaypoints.srv
+// generated code does not contain a copyright notice
+
+#include "mvp_msgs/msg/Waypoint.idl"
+#include "std_msgs/msg/Int16.idl"
+
+module mvp_msgs {
+  module srv {
+    struct GetWaypoints_Request {
+      std_msgs::msg::Int16 count;
+    };
+    struct GetWaypoints_Response {
+      sequence<mvp_msgs::msg::Waypoint> wpt;
+    };
+  };
+};

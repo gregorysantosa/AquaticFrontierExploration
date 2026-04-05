@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mvp_msgs/srv/SendWaypoints.srv
+// generated code does not contain a copyright notice
+
+#include "mvp_msgs/msg/Waypoint.idl"
+
+module mvp_msgs {
+  module srv {
+    struct SendWaypoints_Request {
+      string type;
+
+      sequence<mvp_msgs::msg::Waypoint> wpt;
+    };
+    struct SendWaypoints_Response {
+      boolean success;
+    };
+  };
+};

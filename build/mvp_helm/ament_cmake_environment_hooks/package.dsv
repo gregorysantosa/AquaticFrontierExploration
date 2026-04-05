@@ -1,0 +1,4 @@
+source;share/mvp_helm/local_setup.bash
+source;share/mvp_helm/local_setup.dsv
+source;share/mvp_helm/local_setup.sh
+source;share/mvp_helm/local_setup.zsh

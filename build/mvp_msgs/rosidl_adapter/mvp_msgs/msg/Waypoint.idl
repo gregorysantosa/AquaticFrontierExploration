@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mvp_msgs/msg/Waypoint.msg
+// generated code does not contain a copyright notice
+
+#include "geographic_msgs/msg/GeoPoint.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mvp_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " frame_id in the header indicate the waypoint's x,y, z frame." "\n"
+      "It is set to be the same as the controller id.")
+    struct Waypoint {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Point wpt;
+
+      geographic_msgs::msg::GeoPoint ll_wpt;
+
+      double u;
+    };
+  };
+};

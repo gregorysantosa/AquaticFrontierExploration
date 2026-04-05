@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "acomms_msgs__py",
+		"source" : "/home/arc/ws_sf_ros2/build/acomms_msgs/acomms_msgs__py"
+	}
+}

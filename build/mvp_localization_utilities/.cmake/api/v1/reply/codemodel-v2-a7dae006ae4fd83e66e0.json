@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0408269d2455d6dd4d57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mvp_localization_utilities",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_world_odom_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_world_odom_publisher-f461c6b9fe0f1c59182c.json",
+					"name" : "gps_world_odom_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mvp_localization_utilities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mvp_localization_utilities-21a1c7c86c9a7315475d.json",
+					"name" : "mvp_localization_utilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mvp_localization_utilities_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mvp_localization_utilities_uninstall-e9ca30943c0a27839b8d.json",
+					"name" : "mvp_localization_utilities_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8bd824e8a98285561640.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "world_odom_transform_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-world_odom_transform_node-9e4a6d786752b7659067.json",
+					"name" : "world_odom_transform_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zero_odom_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zero_odom_publisher-c427f9b09822354f2e44.json",
+					"name" : "zero_odom_publisher",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/mvp_localization_utilities",
+		"source" : "/home/arc/ws_sf_ros2/src/mvp_utilities/mvp_localization_utilities"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

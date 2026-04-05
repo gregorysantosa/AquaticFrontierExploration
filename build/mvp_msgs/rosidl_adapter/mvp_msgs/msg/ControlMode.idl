@@ -1,0 +1,74 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mvp_msgs/msg/ControlMode.msg
+// generated code does not contain a copyright notice
+
+#include "mvp_msgs/msg/PidGains.idl"
+
+module mvp_msgs {
+  module msg {
+    module ControlMode_Constants {
+      const int32 DOF_X = 0;
+      const int32 DOF_Y = 1;
+      const int32 DOF_Z = 2;
+      const int32 DOF_ROLL = 3;
+      const int32 DOF_PITCH = 4;
+      const int32 DOF_YAW = 5;
+      const int32 DOF_U = 6;
+      const int32 DOF_V = 7;
+      const int32 DOF_W = 8;
+      const int32 DOF_P = 9;
+      const int32 DOF_Q = 10;
+      const int32 DOF_R = 11;
+    };
+    @verbatim (language="comment", text=
+      "This file is part of MVP-Mission program." "\n"
+      "" "\n"
+      "MVP-Mission is free software: you can redistribute it and/or modify" "\n"
+      "it under the terms of the GNU General Public License as published by" "\n"
+      "the Free Software Foundation, either version 3 of the License, or" "\n"
+      "(at your option) any later version." "\n"
+      "" "\n"
+      "MVP-Mission is distributed in the hope that it will be useful," "\n"
+      "but WITHOUT ANY WARRANTY; without even the implied warranty of" "\n"
+      "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the" "\n"
+      "GNU General Public License for more details." "\n"
+      "" "\n"
+      "You should have received a copy of the GNU General Public License" "\n"
+      "along with MVP-Mission.  If not, see <https://www.gnu.org/licenses/>." "\n"
+      "" "\n"
+      "Author: Emir Cem Gezer" "\n"
+      "Email: emircem@uri.edu;emircem.gezer@gmail.com" "\n"
+      "Year: 2022" "\n"
+      "" "\n"
+      "Copyright (C) 2022 Smart Ocean Systems Laboratory")
+    struct ControlMode {
+      string name;
+
+      sequence<int32> dofs;
+
+      mvp_msgs::msg::PidGains pid_x;
+
+      mvp_msgs::msg::PidGains pid_y;
+
+      mvp_msgs::msg::PidGains pid_z;
+
+      mvp_msgs::msg::PidGains pid_roll;
+
+      mvp_msgs::msg::PidGains pid_pitch;
+
+      mvp_msgs::msg::PidGains pid_yaw;
+
+      mvp_msgs::msg::PidGains pid_u;
+
+      mvp_msgs::msg::PidGains pid_v;
+
+      mvp_msgs::msg::PidGains pid_w;
+
+      mvp_msgs::msg::PidGains pid_p;
+
+      mvp_msgs::msg::PidGains pid_q;
+
+      mvp_msgs::msg::PidGains pid_r;
+    };
+  };
+};

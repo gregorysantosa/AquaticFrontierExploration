@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mvp_msgs/msg/HelmStates.msg
+// generated code does not contain a copyright notice
+
+#include "mvp_msgs/msg/HelmState.idl"
+
+module mvp_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This file is part of MVP-Mission program." "\n"
+      "" "\n"
+      "MVP-Mission is free software: you can redistribute it and/or modify" "\n"
+      "it under the terms of the GNU General Public License as published by" "\n"
+      "the Free Software Foundation, either version 3 of the License, or" "\n"
+      "(at your option) any later version." "\n"
+      "" "\n"
+      "MVP-Mission is distributed in the hope that it will be useful," "\n"
+      "but WITHOUT ANY WARRANTY; without even the implied warranty of" "\n"
+      "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the" "\n"
+      "GNU General Public License for more details." "\n"
+      "" "\n"
+      "You should have received a copy of the GNU General Public License" "\n"
+      "along with MVP-Mission.  If not, see <https://www.gnu.org/licenses/>." "\n"
+      "" "\n"
+      "Author: Emir Cem Gezer" "\n"
+      "Email: emircem@uri.edu;emircem.gezer@gmail.com" "\n"
+      "Year: 2022" "\n"
+      "" "\n"
+      "Copyright (C) 2022 Smart Ocean Systems Laboratory")
+    struct HelmStates {
+      sequence<mvp_msgs::msg::HelmState> states;
+    };
+  };
+};

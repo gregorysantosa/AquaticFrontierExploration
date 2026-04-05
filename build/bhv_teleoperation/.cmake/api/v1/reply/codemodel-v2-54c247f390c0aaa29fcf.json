@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-031028380ed65f0c941f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bhv_teleoperation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bhv_teleoperation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bhv_teleoperation_uninstall-92f320d05425e497112c.json",
+					"name" : "bhv_teleoperation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mvp_bhv_teleoperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mvp_bhv_teleoperation-86e2db3bd4a13e1102d1.json",
+					"name" : "mvp_bhv_teleoperation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-217bd9431cafe96159fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/bhv_teleoperation",
+		"source" : "/home/arc/ws_sf_ros2/src/mvp_mission/bhv_teleoperation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

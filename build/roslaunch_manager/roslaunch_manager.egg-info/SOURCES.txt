@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/test.launch.py
+resource/roslaunch_manager
+roslaunch_manager/__init__.py
+roslaunch_manager/roslaunch_manager.py
+roslaunch_manager/roslaunch_manager_node.py
+roslaunch_manager.egg-info/PKG-INFO
+roslaunch_manager.egg-info/SOURCES.txt
+roslaunch_manager.egg-info/dependency_links.txt
+roslaunch_manager.egg-info/entry_points.txt
+roslaunch_manager.egg-info/requires.txt
+roslaunch_manager.egg-info/top_level.txt
+roslaunch_manager.egg-info/zip-safe

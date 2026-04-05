@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arc/ws_sf_ros2/build/bhv_template/libmvp_bhv_template.so" "TARGETS" "mvp_bhv_template" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

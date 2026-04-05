@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "roslaunch_manager_interfaces__py",
+		"source" : "/home/arc/ws_sf_ros2/build/roslaunch_manager_interfaces/roslaunch_manager_interfaces__py"
+	}
+}

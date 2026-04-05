@@ -1,0 +1,17 @@
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/urdf/base.urdf
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/urdf/base_practice.urdf
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/ament_index/resource_index/package_run_dependencies/mini_alpha_description
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/ament_index/resource_index/parent_prefix_path/mini_alpha_description
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/environment/ament_prefix_path.sh
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/environment/ament_prefix_path.dsv
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/environment/path.sh
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/environment/path.dsv
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/local_setup.bash
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/local_setup.sh
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/local_setup.zsh
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/local_setup.dsv
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/package.dsv
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/ament_index/resource_index/packages/mini_alpha_description
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/cmake/mini_alpha_descriptionConfig.cmake
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/cmake/mini_alpha_descriptionConfig-version.cmake
+/home/arc/ws_sf_ros2/install/mini_alpha_description/share/mini_alpha_description/package.xml

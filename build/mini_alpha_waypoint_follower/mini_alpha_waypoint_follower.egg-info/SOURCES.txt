@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+mini_alpha_waypoint_follower/__init__.py
+mini_alpha_waypoint_follower/astar_waypoint_follower.py
+mini_alpha_waypoint_follower/waypoint_follower.py
+mini_alpha_waypoint_follower.egg-info/PKG-INFO
+mini_alpha_waypoint_follower.egg-info/SOURCES.txt
+mini_alpha_waypoint_follower.egg-info/dependency_links.txt
+mini_alpha_waypoint_follower.egg-info/entry_points.txt
+mini_alpha_waypoint_follower.egg-info/requires.txt
+mini_alpha_waypoint_follower.egg-info/top_level.txt
+mini_alpha_waypoint_follower.egg-info/zip-safe
+resource/mini_alpha_waypoint_follower

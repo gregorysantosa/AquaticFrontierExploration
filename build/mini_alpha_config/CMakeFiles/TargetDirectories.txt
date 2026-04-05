@@ -1,0 +1,9 @@
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/uninstall.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/mini_alpha_config_uninstall.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/test.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/edit_cache.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/rebuild_cache.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/list_install_components.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/install.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/install/local.dir
+/home/arc/ws_sf_ros2/build/mini_alpha_config/CMakeFiles/install/strip.dir

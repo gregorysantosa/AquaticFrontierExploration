@@ -1,0 +1,14 @@
+{
+  "package_name": "acomms_msgs",
+  "non_idl_tuples": [
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/AcommsRx.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/AcommsRxByteArray.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/AcommsTx.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/AcommsTxByteArray.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/BoolStamped.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/RawData.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/UsblAngles.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/UsblData.msg",
+    "/home/arc/ws_sf_ros2/src/acomms_msgs:msg/UsblPhyd.msg"
+  ]
+}

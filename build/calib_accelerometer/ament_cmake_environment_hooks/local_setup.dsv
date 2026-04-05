@@ -1,0 +1,2 @@
+source;share/calib_accelerometer/environment/ament_prefix_path.sh
+source;share/calib_accelerometer/environment/path.sh

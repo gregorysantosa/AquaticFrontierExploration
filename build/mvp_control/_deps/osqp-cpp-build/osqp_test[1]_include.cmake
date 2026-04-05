@@ -1,0 +1,5 @@
+if(EXISTS "/home/arc/ws_sf_ros2/build/mvp_control/_deps/osqp-cpp-build/osqp_test[1]_tests.cmake")
+  include("/home/arc/ws_sf_ros2/build/mvp_control/_deps/osqp-cpp-build/osqp_test[1]_tests.cmake")
+else()
+  add_test(osqp_test_NOT_BUILT osqp_test_NOT_BUILT)
+endif()

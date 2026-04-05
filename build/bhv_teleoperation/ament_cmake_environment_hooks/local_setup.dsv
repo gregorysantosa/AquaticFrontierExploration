@@ -1,0 +1,3 @@
+source;share/bhv_teleoperation/environment/ament_prefix_path.sh
+source;share/bhv_teleoperation/environment/library_path.sh
+source;share/bhv_teleoperation/environment/path.sh

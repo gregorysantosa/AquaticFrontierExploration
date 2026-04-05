@@ -1,0 +1,3 @@
+[console_scripts]
+computer_monitoring = computer_monitoring.log_RAM_temp:main
+

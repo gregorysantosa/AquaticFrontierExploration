@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support_c.cpp.o"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support_c.cpp.o.d"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support_c.cpp.o"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support_c.cpp.o.d"
+  "libroslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libroslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/get_launch__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/set_launch__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

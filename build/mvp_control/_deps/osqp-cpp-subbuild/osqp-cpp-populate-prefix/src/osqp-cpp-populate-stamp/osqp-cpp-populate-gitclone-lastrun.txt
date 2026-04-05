@@ -1,0 +1,3 @@
+repository='https://github.com/GSO-soslab/osqp-cpp'
+module=''
+tag='origin'

@@ -1,0 +1,3 @@
+[console_scripts]
+roslaunch_manager_node = roslaunch_manager.roslaunch_manager_node:main
+

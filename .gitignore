@@ -1,0 +1,15 @@
+# ROS2 / colcon build artifacts
+
+# Colcon/ROS2 misc
+.colcon/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+src/stonefish_ros2/

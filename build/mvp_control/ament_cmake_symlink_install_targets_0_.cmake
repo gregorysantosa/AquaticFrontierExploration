@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arc/ws_sf_ros2/build/mvp_control/mvp_control_ros_node" "/home/arc/ws_sf_ros2/build/mvp_control/libmvp_control.so" "TARGETS" "mvp_control_ros_node" "mvp_control" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/mvp_control")

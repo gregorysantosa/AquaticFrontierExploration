@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fe7f83e7d1facc68f3ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "roslaunch_manager_interfaces__py",
+					"jsonFile" : "directory-roslaunch_manager_interfaces__py-a1fafbdbde0674fccab2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arc/ws_sf_ros2/build/roslaunch_manager_interfaces/roslaunch_manager_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "roslaunch_manager_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roslaunch_manager_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roslaunch_manager_interfaces_egg-675f081346879a4ef53d.json",
+					"name" : "ament_cmake_python_build_roslaunch_manager_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_roslaunch_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_roslaunch_manager_interfaces-d1ed6af760817ee5cf3d.json",
+					"name" : "ament_cmake_python_symlink_roslaunch_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces-cebfd298ea0e8a5f0c52.json",
+					"name" : "roslaunch_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__cpp-5a9b2b1a4d3229dda2f8.json",
+					"name" : "roslaunch_manager_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "roslaunch_manager_interfaces__py::@6832de3ea92e943cc86f",
+					"jsonFile" : "target-roslaunch_manager_interfaces__py-ccc6af09c3fca529f077.json",
+					"name" : "roslaunch_manager_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_generator_c-9bdf07c4e83d316c0950.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_generator_py-92103622824c112bf7f6.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_c-032e6814ff4431da6437.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_c__pyext-e98b0d3640e36c2423f6.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_cpp-ec3ecda8ae6c8150a82c.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c-ece04bf6eb5ba086f074.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext-d8ce01669742dd180d1e.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_cpp-9eddc095c38322572809.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_introspection_c-9e61f6e3c27496584d39.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_introspection_c__pyext-0b4423e09a7163b49078.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces__rosidl_typesupport_introspection_cpp-53d4badec287c8653a1f.json",
+					"name" : "roslaunch_manager_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roslaunch_manager_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roslaunch_manager_interfaces_uninstall-b378359de3e1b75630d4.json",
+					"name" : "roslaunch_manager_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6cb02c95a12cce8c43aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/roslaunch_manager_interfaces",
+		"source" : "/home/arc/ws_sf_ros2/src/mvp_utilities/mvp_roslaunch_manager/roslaunch_manager_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/home/arc/ws_sf_ros2/build/mvp_control/_deps/osqp-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 327,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 357,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/osqp-build/out/libosqp.a"
+			],
+			"targetId" : "osqpstatic::@c7bcff48085e607f36b6",
+			"targetIndex" : 131,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/osqp-build/out/libosqp.so"
+			],
+			"targetId" : "osqp::@c7bcff48085e607f36b6",
+			"targetIndex" : 127,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/osqp",
+			"exportName" : "osqp",
+			"exportTargets" : 
+			[
+				{
+					"id" : "osqpstatic::@c7bcff48085e607f36b6",
+					"index" : 131
+				},
+				{
+					"id" : "osqp::@c7bcff48085e607f36b6",
+					"index" : 127
+				}
+			],
+			"paths" : 
+			[
+				"_deps/osqp-build/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/osqp-build",
+		"source" : "/home/arc/ws_sf_ros2/build/mvp_control/_deps/osqp-src"
+	}
+}

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2a798578cf6b6ab88f02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "acomms_msgs__py",
+					"jsonFile" : "directory-acomms_msgs__py-2dc803b5ff63ce93529d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arc/ws_sf_ros2/build/acomms_msgs/acomms_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "acomms_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs-f861c392c5244d036b6a.json",
+					"name" : "acomms_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__cpp-34f17c5ee7cf031ffa5d.json",
+					"name" : "acomms_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "acomms_msgs__py::@6e0f63e064563c2e51a6",
+					"jsonFile" : "target-acomms_msgs__py-55148e8fd3c240ecbcef.json",
+					"name" : "acomms_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_generator_c-c27383627902357d4acc.json",
+					"name" : "acomms_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_generator_py-5d2cfe419e389542f967.json",
+					"name" : "acomms_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_c-fed9381d9b0886331567.json",
+					"name" : "acomms_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_c__pyext-9a7346328627bfd9ec57.json",
+					"name" : "acomms_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_cpp-2b9093f9421bd9006379.json",
+					"name" : "acomms_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_fastrtps_c-1cdcee45c75a6cfe9ecc.json",
+					"name" : "acomms_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_fastrtps_c__pyext-37deb1e6a2e344e16ffe.json",
+					"name" : "acomms_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_fastrtps_cpp-d93c798db1ef8be3b6c8.json",
+					"name" : "acomms_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_introspection_c-1d9bf5c99ec39ce8603a.json",
+					"name" : "acomms_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_introspection_c__pyext-0ec5d9d8be0db81a3e04.json",
+					"name" : "acomms_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs__rosidl_typesupport_introspection_cpp-fcc58240d0f740fa7f37.json",
+					"name" : "acomms_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acomms_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acomms_msgs_uninstall-4dcff01f5c91a6b4a988.json",
+					"name" : "acomms_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_acomms_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_acomms_msgs_egg-38306335678aafcf3f2b.json",
+					"name" : "ament_cmake_python_build_acomms_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_acomms_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_acomms_msgs-ef15f9c88d48d95a986a.json",
+					"name" : "ament_cmake_python_symlink_acomms_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b4bdc6a4d8abc698ae38.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/acomms_msgs",
+		"source" : "/home/arc/ws_sf_ros2/src/acomms_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

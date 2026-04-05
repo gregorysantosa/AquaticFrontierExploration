@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mvp_msgs/srv/LoadWaypoint.srv
+// generated code does not contain a copyright notice
+
+
+module mvp_msgs {
+  module srv {
+    struct LoadWaypoint_Request {
+      string file;
+    };
+    struct LoadWaypoint_Response {
+      boolean success;
+    };
+  };
+};
