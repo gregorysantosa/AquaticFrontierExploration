@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/mvp_msgs/rosidl_generator_c/mvp_msgs/msg/detail/float64_stamped__functions.h

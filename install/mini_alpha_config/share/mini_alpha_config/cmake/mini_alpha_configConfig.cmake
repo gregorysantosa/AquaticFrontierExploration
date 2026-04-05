@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/mini_alpha_config/ament_cmake_core/mini_alpha_configConfig.cmake

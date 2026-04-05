@@ -1,0 +1,13 @@
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/Int32Stamped.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/BeaconInfo.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/NEDPose.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/INS.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DVLBeam.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DVL.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/ThrusterState.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DebugPhysics.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/Event.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/EventArray.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/SonarSettings.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/SonarSettings2.idl
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/Respawn.idl

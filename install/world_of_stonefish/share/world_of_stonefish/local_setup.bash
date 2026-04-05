@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/world_of_stonefish/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3148cb55112b6a59e2e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "stonefish_ros2__py",
+					"jsonFile" : "directory-stonefish_ros2__py-c70cfbbca18bc6dc2015.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arc/ws_sf_ros2/build/stonefish_ros2/stonefish_ros2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "stonefish_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_stonefish_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_stonefish_ros2_egg-fea9660bce4fff2dae85.json",
+					"name" : "ament_cmake_python_build_stonefish_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_stonefish_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_stonefish_ros2-6e6b4c67bc0d5ad76b5e.json",
+					"name" : "ament_cmake_python_symlink_stonefish_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2-976059eeaa6b04d3e6b1.json",
+					"name" : "stonefish_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__cpp-e0929fee04c8cf36fdc2.json",
+					"name" : "stonefish_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stonefish_ros2__py::@f9ba494155fc600b56a5",
+					"jsonFile" : "target-stonefish_ros2__py-3addb20d099f63d6275c.json",
+					"name" : "stonefish_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_generator_c-1200b398d0b266eab48f.json",
+					"name" : "stonefish_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_generator_py-d4acab46065e1babe8ae.json",
+					"name" : "stonefish_ros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_c-939bd9ffa7ecc3d66162.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_c__pyext-19477b9b296d42de0079.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_cpp-96e0d94dca025cc0878f.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_fastrtps_c-1681424a7660859c44ac.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext-b338e3a7f25c173f7612.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_fastrtps_cpp-04e04df38b11a2550f54.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_introspection_c-97c1ad1653a387e72eff.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_introspection_c__pyext-f9b8e106b4670c4cc623.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2__rosidl_typesupport_introspection_cpp-44303216547a8001d253.json",
+					"name" : "stonefish_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2_interface-09dc7dc0ade919f17b8a.json",
+					"name" : "stonefish_ros2_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_ros2_uninstall-5f31adfd195042622e1d.json",
+					"name" : "stonefish_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_simulator-239a1b3b284bafad339a.json",
+					"name" : "stonefish_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stonefish_simulator_nogpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stonefish_simulator_nogpu-bf1f93f7e1537676fe52.json",
+					"name" : "stonefish_simulator_nogpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-92a1e26c0474fb870724.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/stonefish_ros2",
+		"source" : "/home/arc/ws_sf_ros2/src/stonefish_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

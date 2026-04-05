@@ -1,0 +1,11 @@
+source;share/bhv_surfacing/hook/cmake_prefix_path.ps1
+source;share/bhv_surfacing/hook/cmake_prefix_path.dsv
+source;share/bhv_surfacing/hook/cmake_prefix_path.sh
+source;share/bhv_surfacing/hook/ld_library_path_lib.ps1
+source;share/bhv_surfacing/hook/ld_library_path_lib.dsv
+source;share/bhv_surfacing/hook/ld_library_path_lib.sh
+source;share/bhv_surfacing/local_setup.bash
+source;share/bhv_surfacing/local_setup.dsv
+source;share/bhv_surfacing/local_setup.ps1
+source;share/bhv_surfacing/local_setup.sh
+source;share/bhv_surfacing/local_setup.zsh

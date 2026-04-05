@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arc/ws_sf_ros2/build/world_of_stonefish/rudder_driver_node" "/home/arc/ws_sf_ros2/build/world_of_stonefish/libworld_of_stonefish.so" "TARGETS" "rudder_driver_node" "world_of_stonefish" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/world_of_stonefish")

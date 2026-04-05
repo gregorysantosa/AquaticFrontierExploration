@@ -1,0 +1,43 @@
+bhv_teleop:
+  default_bhv_world_link: world_ned
+  default_bhv_child_link: cg_link
+  #### tele-op, ang in degrees ####
+  ## left up/down controls surge
+  ## X and B controls yaw
+  ## Y and A controls pitch
+  ## RB and RT controls depth
+  ## LB has to be pressed 
+  ## LT resets desired states to zero for all.
+  tele_s_surge: 2.0
+  tele_s_sway: 1.0
+  tele_d_yaw: 10.0 
+  tele_d_pitch: 10.0
+  tele_d_depth: 0.1
+  # tele_desired_roll: 0.0
+  no_joy_timeout: 500.0
+
+bhv_path_following:
+  # match teleop frames so the behavior knows what TF frames to use
+  default_bhv_world_link: world_ned
+  default_bhv_child_link: cg_link
+
+  # behavior-specific scalar params
+  update_topic: path_following/update_waypoints
+  append_topic: path_following/append_waypoints
+  surge_velocity: 0.3
+
+  state_done: teleop
+  state_fail: kill
+
+  lookahead_distance: 3.0
+  beta_gain: 0.0
+  sigma: 0.0
+
+  lookahead_adaptive_flag: false
+  lookahead_max: 15.0
+  lookahead_min: 3.0
+  lookahead_gamma: 1.0
+
+  overshoot_timeout: 600
+  acceptance_radius: 2.0
+

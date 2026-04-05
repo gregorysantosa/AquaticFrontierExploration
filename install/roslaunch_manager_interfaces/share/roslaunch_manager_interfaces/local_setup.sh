@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/roslaunch_manager_interfaces/ament_cmake_environment_hooks/local_setup.sh

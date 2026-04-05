@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/roslaunch_manager_interfaces/rosidl_generator_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support.h

@@ -1,0 +1,11 @@
+source;share/world_of_stonefish/hook/cmake_prefix_path.ps1
+source;share/world_of_stonefish/hook/cmake_prefix_path.dsv
+source;share/world_of_stonefish/hook/cmake_prefix_path.sh
+source;share/world_of_stonefish/hook/ld_library_path_lib.ps1
+source;share/world_of_stonefish/hook/ld_library_path_lib.dsv
+source;share/world_of_stonefish/hook/ld_library_path_lib.sh
+source;share/world_of_stonefish/local_setup.bash
+source;share/world_of_stonefish/local_setup.dsv
+source;share/world_of_stonefish/local_setup.ps1
+source;share/world_of_stonefish/local_setup.sh
+source;share/world_of_stonefish/local_setup.zsh

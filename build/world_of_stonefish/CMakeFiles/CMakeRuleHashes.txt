@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+042d3e952d0879dcdac04da08076cd3e CMakeFiles/world_of_stonefish_uninstall

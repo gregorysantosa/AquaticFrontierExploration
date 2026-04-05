@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/stonefish_ros2/rosidl_generator_py/stonefish_ros2/msg/_debug_physics.py

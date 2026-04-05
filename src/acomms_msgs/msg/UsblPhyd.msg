@@ -1,0 +1,13 @@
+std_msgs/Header header
+float32 current_time
+float32 measurement_time
+int32 remote_address
+bool fix_type
+int32 delay_1_5
+int32 delay_2_5
+int32 delay_3_5
+int32 delay_4_5
+int32 delay_1_2
+int32 delay_4_1
+int32 delay_3_2
+int32 delay_3_4

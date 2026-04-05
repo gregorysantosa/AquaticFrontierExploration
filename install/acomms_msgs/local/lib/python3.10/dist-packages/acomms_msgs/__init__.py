@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/acomms_msgs/rosidl_generator_py/acomms_msgs/__init__.py

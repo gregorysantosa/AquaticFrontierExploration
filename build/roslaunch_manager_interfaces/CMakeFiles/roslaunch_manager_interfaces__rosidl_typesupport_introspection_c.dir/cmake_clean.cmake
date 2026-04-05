@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support.c.o"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support.c.o.d"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support.c.o"
+  "CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support.c.o.d"
+  "libroslaunch_manager_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libroslaunch_manager_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/get_launch__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/get_launch__type_support.c"
+  "rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/set_launch__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/roslaunch_manager_interfaces/srv/detail/set_launch__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/roslaunch_manager_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

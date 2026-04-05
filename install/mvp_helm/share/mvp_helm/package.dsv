@@ -1,0 +1,11 @@
+source;share/mvp_helm/hook/cmake_prefix_path.ps1
+source;share/mvp_helm/hook/cmake_prefix_path.dsv
+source;share/mvp_helm/hook/cmake_prefix_path.sh
+source;share/mvp_helm/hook/ld_library_path_lib.ps1
+source;share/mvp_helm/hook/ld_library_path_lib.dsv
+source;share/mvp_helm/hook/ld_library_path_lib.sh
+source;share/mvp_helm/local_setup.bash
+source;share/mvp_helm/local_setup.dsv
+source;share/mvp_helm/local_setup.ps1
+source;share/mvp_helm/local_setup.sh
+source;share/mvp_helm/local_setup.zsh

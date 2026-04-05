@@ -1,0 +1,26 @@
+waypoints:
+  - {x: 0.0,  y: 0.0,  z: -1.0}
+  - {x: 5.0,  y: 0.0,  z: -1.0}
+  - {x: 5.0,  y: 5.0,  z: -1.0}
+  - {x: 0.0,  y: 5.0,  z: -1.0}
+  - {x: 0.0,  y: 0.0,  z: -1.0}
+
+update_topic: path_following/update_waypoints
+append_topic: path_following/append_waypoints
+surge_velocity: 0.3
+
+state_done: teleop
+state_fail: kill
+
+lookahead_distance: 3.0
+beta_gain: 0.0
+sigma: 0.0
+
+lookahead_adaptive_flag: false
+lookahead_max: 15.0
+lookahead_min: 3.0
+lookahead_gamma: 1.0
+
+overshoot_timeout: 600
+acceptance_radius: 2.0
+

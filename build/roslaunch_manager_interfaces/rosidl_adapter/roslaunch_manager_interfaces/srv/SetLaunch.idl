@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roslaunch_manager_interfaces/srv/SetLaunch.srv
+// generated code does not contain a copyright notice
+
+
+module roslaunch_manager_interfaces {
+  module srv {
+    struct SetLaunch_Request {
+      string pkg;
+
+      string file;
+
+      boolean set;
+    };
+    struct SetLaunch_Response {
+      @verbatim (language="comment", text=
+        "indicate successful run of triggered service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "informational, e.g. for error messages")
+      string message;
+    };
+  };
+};

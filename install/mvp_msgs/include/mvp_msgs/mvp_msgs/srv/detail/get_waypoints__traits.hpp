@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/mvp_msgs/rosidl_generator_cpp/mvp_msgs/srv/detail/get_waypoints__traits.hpp

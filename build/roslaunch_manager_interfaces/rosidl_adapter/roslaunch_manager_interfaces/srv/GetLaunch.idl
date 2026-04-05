@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roslaunch_manager_interfaces/srv/GetLaunch.srv
+// generated code does not contain a copyright notice
+
+
+module roslaunch_manager_interfaces {
+  module srv {
+    struct GetLaunch_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetLaunch_Response {
+      @verbatim (language="comment", text=
+        "list of messages")
+      sequence<string> list;
+    };
+  };
+};

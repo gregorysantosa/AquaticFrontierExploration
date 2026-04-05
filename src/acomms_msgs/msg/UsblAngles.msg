@@ -1,0 +1,14 @@
+std_msgs/Header header
+float32 current_time
+float32 measurement_time
+int32 remote_address
+float32 local_bearing
+float32 local_elevation
+float32 bearing
+float32 elevation
+float32 roll
+float32 pitch
+float32 yaw
+int32 rssi
+int32 signal_integrity
+float32 accuracy

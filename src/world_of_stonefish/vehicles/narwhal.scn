@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<scenario>
+    <robot name="$(arg robot_name)" fixed="false" self_collisions="false">
+        <base_link name="Vehicle" type="compound" physics="submerged">
+        
+            <external_part name="Hull" type="model" physics="submerged" buoyant="false">
+                <physical>
+                    <mesh filename="parts/body/narwhal_body.obj" scale="0.001"/>
+                    <origin rpy="3.1415926 0.0 0.0" xyz="-0.5 0.0 0.0"/>
+                </physical>
+                <visual>
+                    <mesh filename="parts/body/narwhal_body.obj" scale="0.001"/>
+                    <origin rpy="3.1415926 0.0 0.0" xyz="-0.5 0.0 0.0"/>
+                </visual>
+                <material name="Neutral"/>
+                <look name="yellow"/>
+                <mass value="16.8"/>
+                <compound_transform rpy="0.0 0.0 3.1415926" xyz="0.0 0.0 0.0"/>
+                <cg xyz="0.0 0.0 0.01" rpy="0.0 0.0 0.0"/>
+            </external_part>
+            
+            <!-- <internal_part name="weights" type="model" physics="surface" buoyant="false">
+                <physical>
+                    <mesh filename="parts/others/narwhal_weight.obj" scale="1.0"/>
+                    <origin rpy="3.1415926 0.0 0.0"  xyz="0.0 0.0 0.0"/>
+                </physical>
+                <visual>
+                    <mesh filename="parts/others/narwhal_weight.obj" scale="1.0"/>
+                    <origin rpy="3.1415926 0.0 0.0" xyz="0.0 0.0 0.0"/>
+                </visual>
+                <material name="Neutral"/>
+                <look name="red"/>
+                <mass value="2.85"/>
+                <cg xyz="0.125 0.0 0.05" rpy="0.0 0.0 0.0"/> -->
+
+                <!-- diving -->
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.1 0.0 0.0"/> -->
+                <!-- climbing -->
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.25 0.0 0.0"/> -->
+                <!-- float mode  -->
+                <!-- -0.25 is the max -->
+                <!-- <compound_transform rpy="3.1415926 0.0 0.0" xyz="-0.25 0.0 0.0"/> -->
+
+            <!-- </internal_part> -->
+            
+            <internal_part name="Foam" type="cylinder" physics="floating" buoyant="true">
+                <dimensions radius="0.075" height="1.12"/>
+                <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+                <material name="Foam"/>
+                <mass value="0.48"/>
+                <look name="grey"/>
+                <compound_transform rpy="0.0 1.57079 0.0" xyz="0.0 0.0 0.0"/>
+            </internal_part>
+
+            <external_part name="docking_nose" type="model" physics="submerged">
+                <physical>
+                    <mesh filename="parts/others/front_nose.obj" scale="0.001"/>
+                    <origin rpy="0.0 -1.57079 0.0"  xyz="-0.45 0.0 0.0"/>
+                </physical>
+                <visual>
+                    <mesh filename="parts/others/front_nose.obj" scale="0.001"/>
+                    <origin rpy="0.0 -1.57079 0.0" xyz="-0.45 0.0 0.0"/>
+                </visual>
+                <material name="Neutral"/>
+                <look name="red"/>
+                <compound_transform rpy="0.0 0.0 3.1415926" xyz="0.0 0.0 0.0"/>
+            </external_part>
+        </base_link>
+
+
+    <!-- internal weight adjustment -->
+         <link name="adjustable_weight_link" type="compound" physics="surface">
+            <external_part name="weights" type="model" physics="surface" buoyant="false">
+                <physical>
+                    <mesh filename="parts/others/narwhal_weight.obj" scale="1.0"/>
+                    <origin rpy="3.1415926 0.0 0.0"  xyz="0.0 0.0 0.0"/>
+                </physical>
+                <visual>
+                    <mesh filename="parts/others/narwhal_weight.obj" scale="1.0"/>
+                    <origin rpy="3.1415926 0.0 0.0" xyz="0.0 0.0 0.0"/>
+                </visual>
+                <material name="Neutral"/>
+                <look name="red"/>
+                <mass value="2.85"/>
+
+                <cg xyz="0.125 0.0 0.05" rpy="0.0 0.0 0.0"/>
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.1 0.0 0.0"/> -->
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.12 0.0 0.0"/> -->
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.05 0.0 0.0"/> -->
+                <!-- <compound_transform rpy="0.0 0.0 0.0" xyz="-0.25 0.0 0.0"/> -->
+                <compound_transform rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+            </external_part>
+        </link>
+
+        <link name="lead_screw_nut" type="box" physics="surface">
+            <dimensions xyz="0.01 0.02 0.01"/>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="Neutral"/>
+            <look name="Green"/>
+        </link>
+
+        <joint name="shifting_mass_linear_joint" type="prismatic">
+            <parent name="Vehicle"/>
+            <child name="lead_screw_nut"/>
+            <origin rpy="0.0 0.0 0.0" xyz="-0.1 0.0 0.0"/>
+            <axis xyz="1.0 0.0 0.0"/>
+            <limits min="-0.15" max="0.0"/>    
+        </joint>
+
+        <actuator name="Servo" type="servo">
+            <controller position_gain="1.0" velocity_gain="1.0" max_torque="30.0" max_velocity="10.0"/>
+            <joint name="shifting_mass_linear_joint"/>
+            <initial position="0.0"/>
+        </actuator>
+
+         <joint name="shifting_mass_revolute_joint" type="revolute">
+            <parent name="lead_screw_nut"/>
+            <child name="adjustable_weight_link"/>
+            <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+            <axis xyz="1.0 0.0 0.0"/>
+            <limits min="-3.1400000" max="3.1400000"/>    
+        </joint>
+
+    
+        <actuator name="Servo" type="servo">
+            <controller position_gain="1.0" velocity_gain="1.0" max_torque="30.0" max_velocity="10.0"/>
+            <joint name="shifting_mass_revolute_joint"/>
+            <initial position="0.0"/>
+        </actuator>
+        
+<!-- ###########Thrusters ######### -->
+
+        <!-- surge thruster -->
+
+        <actuator name="ThrusterSurge" type="propeller">
+                <link name="Vehicle"/>
+                <origin rpy="0.0 0.0 0.0" xyz="-0.95 0.0 0.0"/>
+                <specs thrust_coeff="278.0" torque_coeff="0.01" max_rpm="3000.0"/>
+                <propeller diameter="0.1145" right="true">
+                    <origin rpy="1.57079 0.0 0.0" xyz="0.0 0.0 0.0"/>
+                    <mesh filename="parts/thruster/prop.obj" scale="1.0"/>
+                    <mesh filename="prop.obj" scale="1.5"/>
+                    <material name="Neutral"/>
+                    <look name="red"/>
+                </propeller>
+        </actuator>
+
+
+        <actuator name="ThrusterHeaveBow" type="propeller">
+            <link name="Vehicle"/>
+            <origin rpy="0.0 1.571 0.0" xyz="0.4136 0.0 0.05"/>
+            <specs thrust_coeff="286.7" torque_coeff="0.01" max_rpm="3000.0"/>
+            <propeller diameter="0.08" right="true">
+                <mesh filename="parts/thruster/prop.obj" scale="1.0"/>
+                <mesh filename="prop.obj" scale="1.0"/>
+                <material name="Neutral"/>
+                <look name="red"/>
+            </propeller>
+        </actuator>
+
+        <actuator name="ThrusterHeaveStern" type="propeller">
+            <link name="Vehicle"/>
+            <origin rpy="0.0 1.571 0.0" xyz="-0.745 0.0 0.05"/>
+            <specs thrust_coeff="286.7" torque_coeff="0.01" max_rpm="3000.0"/>
+            <propeller diameter="0.08" right="true">
+                <mesh filename="parts/thruster/prop.obj" scale="1.0"/>
+                <mesh filename="prop.obj" scale="1.0"/>
+                <material name="Neutral"/>
+                <look name="red"/>
+            </propeller>
+        </actuator>
+
+        <actuator name="ThrusterSway" type="propeller">
+            <link name="Vehicle"/>
+            <origin rpy="0.0 0.0 -1.5707963" xyz="-0.611 0.0 0.047"/>
+            <specs thrust_coeff="286.7" torque_coeff="0.01" max_rpm="3000.0"/>
+            <propeller diameter="0.08" right="true">
+                <mesh filename="parts/thruster/prop.obj" scale="1.0"/>
+                <material name="Neutral"/>
+                <look name="red"/>
+            </propeller>
+        </actuator>
+        
+
+        <!-- sensors -->
+        <sensor name="gps" type="gps" rate="1.0">
+            <link name="Vehicle"/>
+            <origin rpy="0.0 0.0 0.0" xyz="0.5 0.0 -0.1"/>
+            <noise ned_position="0.0"/>
+            <ros_publisher topic="$(arg robot_name)/gps/fix"/>
+        </sensor>
+
+         <sensor name="imu_sf" type="imu" rate="20.0">
+                <link name="Vehicle"/>
+                <origin rpy="3.1415926 0.0 0.0" xyz="0.0 0.0 0.0"/>
+                <noise angle="0.0 0.0 0.0" angular_velocity="0.0" yaw_drift="0.0" linear_acceleration="0.000"/>
+                <ros_publisher topic="$(arg robot_name)/imu/stonefish/data"/>
+        </sensor>
+
+        <sensor name="pressure" type="pressure" rate="5.0">
+                <link name="Vehicle"/>
+                <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.05"/>
+                <noise pressure="2.0"/>
+                <ros_publisher topic="$(arg robot_name)/pressure"/>
+        </sensor>
+
+        <sensor name="dvl_sf" type="dvl" rate="5.0">
+            <link name="Vehicle"/>
+            <origin rpy="3.1415926 0.0 0.0" xyz="-0.2 0.0 0.0"/>
+            <specs beam_angle="30.0"/>
+            <range velocity="9.0 9.0 9.0" altitude_min="0.2" altitude_max="200.0"/>
+            <noise velocity="0.00" altitude="0.001"/>
+            <ros_publisher topic="$(arg robot_name)/dvl/stonefish/raw" altitude_topic="$(arg robot_name)/dvl/stonefish/altitude"/>
+        </sensor>
+
+
+        <!-- <sensor name="Camera" rate="10.0" type="camera">
+            <specs resolution_x="800" resolution_y="600" horizontal_fov="120.0"/>
+            <origin xyz="0.6 0.0 0.0" rpy="2.3557 0.0 1.5707"/>
+            <link name="Vehicle"/>
+            <ros_publisher topic="$(arg robot_name)/stonefish/camera"/>
+        </sensor> -->
+
+        <world_transform xyz="2.0 2.0 0.0" rpy="0.0 0.0 0.0"/>
+
+        <ros_subscriber 
+            servos="$(arg robot_name)/stonefish/servo/desired_joint_states" 
+            propellers="$(arg robot_name)/stonefish/thruster_command"
+        /> 
+		<ros_publisher  
+            servos="$(arg robot_name)/stonefish/servo/joint_states" 
+            propellers="$(arg robot_name)/stonefish/thruster_state"
+        />
+        
+    </robot>
+</scenario>

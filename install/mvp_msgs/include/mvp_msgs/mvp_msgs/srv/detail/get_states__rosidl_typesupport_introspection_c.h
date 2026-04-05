@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/mvp_msgs/rosidl_typesupport_introspection_c/mvp_msgs/srv/detail/get_states__rosidl_typesupport_introspection_c.h

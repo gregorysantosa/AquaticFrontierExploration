@@ -1,0 +1,9 @@
+<class_libraries>
+	<library path="mvp_bhv_direct_control">
+	  <class name="helm/DirectControl" 
+	  		 type="helm::DirectControl" 
+			 base_class_type="helm::BehaviorBase">
+	    <description></description>
+	  </class>
+	</library>
+</class_libraries>

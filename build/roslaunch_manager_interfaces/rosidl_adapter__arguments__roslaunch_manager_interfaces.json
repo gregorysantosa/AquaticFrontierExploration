@@ -1,0 +1,7 @@
+{
+  "package_name": "roslaunch_manager_interfaces",
+  "non_idl_tuples": [
+    "/home/arc/ws_sf_ros2/src/mvp_utilities/mvp_roslaunch_manager/roslaunch_manager_interfaces:srv/GetLaunch.srv",
+    "/home/arc/ws_sf_ros2/src/mvp_utilities/mvp_roslaunch_manager/roslaunch_manager_interfaces:srv/SetLaunch.srv"
+  ]
+}

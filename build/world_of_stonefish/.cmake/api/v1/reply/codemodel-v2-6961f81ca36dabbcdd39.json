@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a3c3e7c89907e0642707.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "world_of_stonefish",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dvl_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvl_driver_node-f272ba29d9948ae5e7eb.json",
+					"name" : "dvl_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_driver_node-c1e82245d45276ad379a.json",
+					"name" : "imu_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pressure_sensor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pressure_sensor_node-bbd08cf84e07d53bdbdf.json",
+					"name" : "pressure_sensor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rudder_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rudder_driver_node-6bb765c19cf390437ca2.json",
+					"name" : "rudder_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_driver_node-5436ff88b13af5157a7c.json",
+					"name" : "servo_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thruster_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thruster_driver_node-e95959d15093b28991df.json",
+					"name" : "thruster_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-74fee172a7a65ad466e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usbl_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usbl_driver_node-8d5b5ae25ad52f5f9f54.json",
+					"name" : "usbl_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "world_of_stonefish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-world_of_stonefish-53f9985baa87c00da8a5.json",
+					"name" : "world_of_stonefish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "world_of_stonefish_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-world_of_stonefish_uninstall-a02a7071fafd8690c55d.json",
+					"name" : "world_of_stonefish_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arc/ws_sf_ros2/build/world_of_stonefish",
+		"source" : "/home/arc/ws_sf_ros2/src/world_of_stonefish"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

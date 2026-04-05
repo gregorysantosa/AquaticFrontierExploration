@@ -1,0 +1,4 @@
+source;share/roslaunch_manager_interfaces/local_setup.bash
+source;share/roslaunch_manager_interfaces/local_setup.dsv
+source;share/roslaunch_manager_interfaces/local_setup.sh
+source;share/roslaunch_manager_interfaces/local_setup.zsh

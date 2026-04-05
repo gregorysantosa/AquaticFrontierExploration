@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/mini_alpha_bringup/ament_cmake_environment_hooks/local_setup.sh

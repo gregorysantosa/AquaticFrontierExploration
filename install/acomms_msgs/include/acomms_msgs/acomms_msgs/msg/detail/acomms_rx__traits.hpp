@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/acomms_msgs/rosidl_generator_cpp/acomms_msgs/msg/detail/acomms_rx__traits.hpp

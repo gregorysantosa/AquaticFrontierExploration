@@ -1,0 +1,1 @@
+/home/arc/ws_sf_ros2/build/acomms_msgs/rosidl_typesupport_introspection_c/acomms_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h
